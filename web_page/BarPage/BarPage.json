@@ -1,0 +1,113 @@
+{
+  "modelVersion" : "2.0",
+  "id" : "BarPage",
+  "name" : "BarPage",
+  "lastUpdate" : 1635346181037,
+  "rows" : [
+    [
+      {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "value" : {
+            "type" : "constant",
+            "value" : "This is the initial value"
+          },
+          "color" : {
+            "type" : "constant",
+            "value" : "RebeccaPurple"
+          },
+          "background" : {
+            "type" : "constant",
+            "value" : "Yellow"
+          },
+          "dataset" : {
+            "type" : "expression",
+            "value" : "dataset"
+          }
+        },
+        "reference" : "0eb74d0a-cb0a-48f3-a73d-8d6de5036a05",
+        "hasValidationError" : false,
+        "id" : "customDrillDownBarChart"
+      }
+    ]
+  ],
+  "assets" : [
+    {
+      "id" : "1940c21a-9d50-40a3-8d52-e71cd7766cb2",
+      "name" : "asset.css",
+      "type" : "css",
+      "order" : 1,
+      "external" : false
+    },
+    {
+      "id" : "d7574dee-e98e-4f13-82c7-d23fcd36c1cd",
+      "name" : "localization.json",
+      "type" : "json",
+      "order" : 0,
+      "external" : false
+    },
+    {
+      "id" : "7b33fcb8-a516-4513-82b1-d1e2e86fe445",
+      "name" : "style.css",
+      "type" : "css",
+      "order" : 0,
+      "external" : false
+    }
+  ],
+  "inactiveAssets" : [ ],
+  "variables" : {
+    "dataset" : {
+      "type" : "json",
+      "value" : [
+        "[\r",
+        "    { \"arg\": \"Asia\", \"val\": 3007613498, \"parentID\": \"\" },\r",
+        "    { \"arg\": \"North America\", \"val\": 493603615, \"parentID\": \"\" },\r",
+        "    { \"arg\": \"Europe\", \"val\": 438575293, \"parentID\": \"\" },\r",
+        "    { \"arg\": \"Africa\", \"val\": 381331438, \"parentID\": \"\" },\r",
+        "    { \"arg\": \"South America\", \"val\": 331126555, \"parentID\": \"\" },\r",
+        "    { \"arg\": \"Nigeria\", \"val\": 181562056, \"parentID\": \"Africa\" },\r",
+        "    { \"arg\": \"Egypt\", \"val\": 88487396, \"parentID\": \"Africa\" },\r",
+        "    { \"arg\": \"Congo\", \"val\": 77433744, \"parentID\": \"Africa\" },\r",
+        "    { \"arg\": \"Morocco\", \"val\": 33848242, \"parentID\": \"Africa\" },\r",
+        "    { \"arg\": \"China\", \"val\": 1380083000, \"parentID\": \"Asia\" },\r",
+        "    { \"arg\": \"India\", \"val\": 1306687000, \"parentID\": \"Asia\" },\r",
+        "    { \"arg\": \"Pakistan\", \"val\": 193885498, \"parentID\": \"Asia\" },\r",
+        "    { \"arg\": \"Japan\", \"val\": 126958000, \"parentID\": \"Asia\" },\r",
+        "    { \"arg\": \"Russia\", \"val\": 146804372, \"parentID\": \"Europe\" },\r",
+        "    { \"arg\": \"Germany\", \"val\": 82175684, \"parentID\": \"Europe\" },\r",
+        "    { \"arg\": \"Turkey\", \"val\": 79463663, \"parentID\": \"Europe\" },\r",
+        "    { \"arg\": \"France\", \"val\": 66736000, \"parentID\": \"Europe\" },\r",
+        "    { \"arg\": \"United Kingdom\", \"val\": 63395574, \"parentID\": \"Europe\" },\r",
+        "    { \"arg\": \"United States\", \"val\": 325310275, \"parentID\": \"North America\" },\r",
+        "    { \"arg\": \"Mexico\", \"val\": 121005815, \"parentID\": \"North America\" },\r",
+        "    { \"arg\": \"Canada\", \"val\": 36048521, \"parentID\": \"North America\" },\r",
+        "    { \"arg\": \"Cuba\", \"val\": 11239004, \"parentID\": \"North America\" },\r",
+        "    { \"arg\": \"Brazil\", \"val\": 205737996, \"parentID\": \"South America\" },\r",
+        "    { \"arg\": \"Colombia\", \"val\": 48400388, \"parentID\": \"South America\" },\r",
+        "    { \"arg\": \"Venezuela\", \"val\": 30761000, \"parentID\": \"South America\" },\r",
+        "    { \"arg\": \"Peru\", \"val\": 28220764, \"parentID\": \"South America\" },\r",
+        "    { \"arg\": \"Chile\", \"val\": 18006407, \"parentID\": \"South America\" }\r",
+        "]"
+      ],
+      "exposed" : false
+    }
+  },
+  "hasValidationError" : false,
+  "uuid" : "8e1b610a-e1ae-4b68-bafb-15dad2dfd61a",
+  "type" : "page",
+  "description" : "Page generated with Bonita UI designer"
+}

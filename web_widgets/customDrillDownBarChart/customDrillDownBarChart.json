@@ -1,0 +1,81 @@
+{
+  "modelVersion" : "2.0",
+  "id" : "customDrillDownBarChart",
+  "name" : "DrillDownBarChart",
+  "lastUpdate" : 1635346523251,
+  "template" : "@customDrillDownBarChart.tpl.html",
+  "controller" : "@customDrillDownBarChart.ctrl.js",
+  "custom" : true,
+  "properties" : [
+    {
+      "label" : "Value",
+      "name" : "value",
+      "type" : "text",
+      "defaultValue" : "This is the initial value",
+      "bond" : "expression"
+    },
+    {
+      "label" : "Color",
+      "name" : "color",
+      "type" : "choice",
+      "defaultValue" : "RebeccaPurple",
+      "choiceValues" : [
+        "RebeccaPurple",
+        "Chartreuse",
+        "Tomato",
+        "DeepSkyBlue"
+      ],
+      "bond" : "expression"
+    },
+    {
+      "label" : "Background color on click",
+      "name" : "background",
+      "type" : "choice",
+      "defaultValue" : "Yellow",
+      "choiceValues" : [
+        "Yellow",
+        "LightGray"
+      ],
+      "bond" : "expression"
+    },
+    {
+      "label" : "Dataset",
+      "name" : "dataset",
+      "type" : "collection",
+      "bond" : "expression"
+    }
+  ],
+  "assets" : [
+    {
+      "id" : "be5a4e72-4339-437c-94f4-4722b5d91768",
+      "name" : "https://cdn3.devexpress.com/jslib/21.1.6/js/dx.all.js",
+      "type" : "js",
+      "order" : 3,
+      "external" : true
+    },
+    {
+      "id" : "f6e7619b-b8be-427a-811e-843ac2e0abd4",
+      "name" : "https://cdn3.devexpress.com/jslib/21.1.6/css/dx.common.css",
+      "type" : "css",
+      "order" : 4,
+      "external" : true
+    },
+    {
+      "id" : "1ab7c7fc-2a64-41e7-a99f-41e05ca870d9",
+      "name" : "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js",
+      "type" : "js",
+      "order" : 1,
+      "external" : true
+    },
+    {
+      "id" : "5c2dd55b-5077-48b3-ad9b-3041ed407424",
+      "name" : "https://cdn3.devexpress.com/jslib/21.1.6/css/dx.light.css",
+      "type" : "css",
+      "order" : 5,
+      "external" : true
+    }
+  ],
+  "requiredModules" : [ ],
+  "type" : "widget",
+  "hasHelp" : false
+}

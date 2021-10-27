@@ -1,0 +1,46 @@
+{
+  "modelVersion" : "2.0",
+  "id" : "customTest",
+  "name" : "test",
+  "lastUpdate" : 1635340432391,
+  "template" : "@customTest.tpl.html",
+  "controller" : "@customTest.ctrl.js",
+  "custom" : true,
+  "properties" : [
+    {
+      "label" : "Value",
+      "name" : "value",
+      "type" : "text",
+      "defaultValue" : "This is the initial value",
+      "bond" : "expression"
+    },
+    {
+      "label" : "Color",
+      "name" : "color",
+      "type" : "choice",
+      "defaultValue" : "RebeccaPurple",
+      "choiceValues" : [
+        "RebeccaPurple",
+        "Chartreuse",
+        "Tomato",
+        "DeepSkyBlue"
+      ],
+      "bond" : "expression"
+    },
+    {
+      "label" : "Background color on click",
+      "name" : "background",
+      "type" : "choice",
+      "defaultValue" : "Yellow",
+      "choiceValues" : [
+        "Yellow",
+        "LightGray"
+      ],
+      "bond" : "expression"
+    }
+  ],
+  "assets" : [ ],
+  "requiredModules" : [ ],
+  "type" : "widget",
+  "hasHelp" : false
+}
